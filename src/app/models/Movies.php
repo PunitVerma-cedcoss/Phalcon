@@ -1,7 +1,10 @@
 <?php
 
-use Phalcon\Mvc\Collection;
+use Phalcon\Mvc\Model;
 
-Class Movies extends Collection{
-    
+class Movies extends Model
+{
+    public $id;
+    public $movie_name;
+    public $movie_type;
 }
